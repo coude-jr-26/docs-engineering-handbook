@@ -19,9 +19,9 @@ Se você acabou de entrar no projeto, siga esta ordem:
 |---|---|
 | [Getting Started](getting-started/) | Orientações iniciais para novos membros |
 | [Standards](standards/) | Padrões de commits, Pull Requests, revisão e entrega |
-| Architecture | Decisões arquiteturais e desenho técnico do CRM |
-| Processes | Fluxo de sprint, cerimônias, releases e incidentes |
-| Resources | Links úteis, glossário e materiais de apoio |
+| [Architecture](architecture/) | Decisões arquiteturais e desenho técnico do CRM |
+| [Processes](processes/) | Fluxo de sprint, cerimônias, releases e incidentes |
+| [Resources](resources/) | Links úteis, glossário e materiais de apoio |
 
 ## Regras essenciais
 
