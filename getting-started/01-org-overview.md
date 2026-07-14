@@ -1,33 +1,68 @@
-# Organization Overview
+# Visão Geral da Organização
 
-## What is coude-jr-26?
+## O que é a coude-jr-26?
 
-This GitHub organization serves three purposes:
+A `coude-jr-26` é a organização do GitHub usada pela Coude Jr 2026.1 para centralizar o desenvolvimento do CRM da Escola Coude, a documentação técnica, a governança dos repositórios e a formação dos membros da equipe.
 
-1. **Product development** — Building a real CRM system (`crm-*` repos)
-2. **Technical recruitment** — Evaluating candidates (`eval-*`, `challenge-*` repos)
-3. **Junior development** — Training new engineers (`sandbox-*`, `training-*` repos)
+A organização tem três objetivos principais:
 
-## Repository Naming
+1. Desenvolver o CRM da Escola Coude.
+2. Padronizar a forma de trabalho da equipe.
+3. Apoiar o aprendizado e a evolução técnica dos membros juniores.
 
-| Prefix | Purpose |
+## Repositórios principais
+
+| Repositório | Visibilidade | Finalidade |
+|---|---|---|
+| `.github` | Público | Templates globais de Pull Request, issues e configurações da organização |
+| `docs-engineering-handbook` | Público | Manual de engenharia, padrões e documentação interna |
+| `crm-backend` | Privado | API do CRM desenvolvida em Laravel |
+| `crm-frontend` | Privado | Interface do CRM desenvolvida em React com TypeScript |
+| `crm-infra` | Privado | Infraestrutura, Docker, Nginx, PostgreSQL, Redis e deploy |
+| `crm-shared-libs` | Privado | Tipos, contratos e bibliotecas compartilhadas entre projetos |
+
+## Padrão de nomes dos repositórios
+
+| Prefixo | Uso |
 |---|---|
-| `crm-` | CRM product repositories |
-| `challenge-` | Technical challenge templates for candidates |
-| `eval-` | Candidate submission repositories |
-| `sandbox-` | Junior practice repositories |
-| `training-` | Structured learning repositories |
-| `docs-` | Documentation repositories |
-| `meta-` | Organization configuration |
-| `archive-` | Archived/inactive repositories |
+| `crm-` | Repositórios relacionados ao produto CRM |
+| `docs-` | Documentação técnica e organizacional |
+| `challenge-` | Desafios técnicos para candidatos |
+| `eval-` | Entregas e avaliações de candidatos |
+| `sandbox-` | Repositórios de prática para membros juniores |
+| `training-` | Repositórios de treinamento estruturado |
+| `meta-` | Configurações e automações da organização |
+| `archive-` | Repositórios arquivados ou inativos |
 
-## Teams
+## Estrutura de times
 
-You belong to one or more teams. Your team determines what you can access.
-Ask your Tech Lead if you're unsure which team you're in.
+A organização usa times pais e times filhos.
 
-## Getting Help
+Os times pais representam áreas amplas. Os times filhos representam funções específicas dentro dessas áreas.
 
-- Open an issue on this repository for documentation questions
-- Contact your Tech Lead for access issues
-- Use GitHub Discussions for general questions
+```text
+leadership
+  tech-leads
+  engineering-mgmt
+
+governance
+  github-admins
+
+engineering
+  backend
+  frontend
+  devops
+  fullstack
+  data-engineering
+
+quality
+  qa
+
+documentation
+  docs-team
+
+juniors
+  junior-devs
+
+recruitment
+  recruiters
