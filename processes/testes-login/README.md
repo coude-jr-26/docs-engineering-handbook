@@ -33,7 +33,7 @@ Além do caminho feliz e de um erro genérico, a cobertura inclui:
 - **Normalização de dados** (case sensitivity e espaços em branco)
 - **Verificação do conteúdo da resposta** (`assertJsonStructure`), não apenas do status HTTP
 
-## Referênciasss
+## Referências
 
 - Pull Request: [#4](https://github.com/coude-jr-26/crm-backend/pull/4)
 - Card Jira: [SCRUM-25](https://limalipe355.atlassian.net/browse/SCRUM-25)
